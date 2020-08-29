@@ -57,7 +57,7 @@ export default {
                     title: 'Company Performance',
                     subtitle: 'Sales, Orders, and Page Views: 2016',
                 },
-                width: Math.floor(window.innerWidth * 0.45),
+                width: Math.floor(window.innerWidth * 0.47),
                 height: 500
             })
         },
