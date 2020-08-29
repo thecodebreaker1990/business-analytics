@@ -3,22 +3,22 @@
         <div class="Toolbar__header">
             Business Analytics
         </div>
-        <Dropdown 
+        <!-- <Dropdown 
             :options="filterOptions"
             :value="activeFilter"
             uniqueKey="key"
             labelKey="title"
             alignment="right"
             @input="handleFilterChange"
-        />
+        /> -->
     </div>
 </template>
 <script>
-import Dropdown from './Dropdown.vue';
+//import Dropdown from './Dropdown.vue';
 export default {
     name: 'toolbar',
     components: {
-        Dropdown
+        //Dropdown
     },
     computed: {
         filterOptions() {
